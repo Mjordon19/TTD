@@ -1,6 +1,6 @@
-Import RoboPiLib 
-from RoboPiLib import setup 
-from setup import RPL
+
+import setup
+import RoboPiLib as RPL
 RPL.RoboPiInit("/dev/ttyAMA0",115200)
 
 motorL = 1
